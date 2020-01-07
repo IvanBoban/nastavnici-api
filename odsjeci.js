@@ -22,6 +22,21 @@ module.exports=[
     },
     {
         id: 5,
+        name: 'Fonetika',
+        code: 'fon'
+    },
+    {
+        id: 6,
+        name: 'Germanistika',
+        code: 'ger'
+    },
+    {
+        id: 7,
+        name: 'Nederlandistika',
+        code: 'neder'
+    },
+    {
+        id: 10,
         name: 'Skandinavistika',
         code: 'skan'
     }
