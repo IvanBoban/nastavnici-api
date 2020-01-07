@@ -2,22 +2,27 @@ module.exports=[
     
     {
         id: 1,
-        name: 'Anglistika'
+        name: 'Anglistika',
+        code: 'ang'
     },
     {
         id: 2,
-        name: 'Arhivistika'
+        name: 'Arhivistika',
+        code: 'arh'
     },
     {
         id: 3,
-        name: 'Filozofija'
+        name: 'Filozofija',
+        code: 'filo'
     },
     {
         id: 4,
-        name: 'Informacijske i komunikacijske znanosti'
+        name: 'Informacijske i komunikacijske znanosti',
+        code: 'inf'
     },
     {
         id: 5,
-        name: 'Skandinavistika'
+        name: 'Skandinavistika',
+        code: 'skan'
     }
 ]
