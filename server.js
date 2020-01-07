@@ -8,7 +8,7 @@ const nastavnci_fon = require('./nastavnici_fon')
 const nastavnci_ger = require('./nastavnici_ger')
 const nastavnci_skan = require('./nastavnici_skan');
 const nastavnci_inf = require('./nastavnci_inf');
-const nastavnci_neder = require('./nastavnci_neder');
+const nastavnici_neder = require('./nastavnici_neder');
 const port = process.env.PORT || 4000 ;
 const cors = require('cors');
 app.use(cors());
@@ -41,6 +41,6 @@ app.get('/ger', (req,res)=>{
     res.send(nastavnci_ger)
 });
 app.get('/neder', (req,res)=>{
-    res.send(nastavnci_neder)
+    res.send(nastavnici_neder)
 });
 app.listen(port, ()=> console.log(`listening on ${port}`))
