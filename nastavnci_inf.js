@@ -233,5 +233,13 @@ module.exports=
     konz2: 'srijeda  15:00 - 17:00',
     room: 'E-313'
 },
+{
+    id:30,
+    name: 'Nastavnik test',
+    email: 'Nastavnik test',
+    konz1: 'srijeda  15:00 - 17:00',
+    konz2: 'srijeda  15:00 - 17:00',
+    room: 'Test'
+},
 
 ]
